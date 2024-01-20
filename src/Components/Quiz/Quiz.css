@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    background-color: #7CC6FE;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main {
+    background-color: #252D4A;
+    color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+.score-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showResult {
+    min-width: 200px;
+    min-height: 200px;
+    width: 300px;
+    height: 300px;
+    background-color: #252D4A;
+    color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* padding: 30px; */
+
+}
+
+.showResult {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playAgain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    color: #13f0c0;
+    text-shadow: 2px 2px #0c3ef0
+}
+
+.Question {
+    margin-bottom: 10px;
+}
+
+.category {
+    color: #0c3ef0;
+    margin-bottom: 8px;
+}
+
+/* .difficulty {
+    color: #7CC6FE;
+    margin-bottom: 8px;
+} */
+
+.input {
+    font-size: 25px;
+}
